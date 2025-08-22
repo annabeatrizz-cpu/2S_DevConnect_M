@@ -1,0 +1,52 @@
+/*1 forma de utilizar uma fonte*/
+
+/*@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Marcellus&display=swap');*/
+
+/*2 forma */
+@font-face {
+    font-family: Marcellus;
+    src: url(../assets/fonts/Marcellus/Marcellus-Regular.ttf),
+        url(../assets/fonts/Marcellus/OFL.txt);
+
+}
+
+@font-face {
+    font-family: Crimson-text;
+    src: url(../assets/fonts/Crimson_Text\,Marcellus/);
+
+}
+
+:root {
+    --cor-preto: #010513;
+    --cor-azul-acinzentado: #2E364D;
+    --cor-branco: #F1F1F1;
+    --cor-cinza: #BCBBBB;
+    --cor-azul-escuro: #1A348E;
+
+    --borda: 1px solid var(--cor-cinza);
+    --borda-arredondada: 2px;
+
+    --tamanho-fonte-lg: 20px;
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+    font-family: "Marcellus", sans-serif ;
+
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cor-branco);
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}

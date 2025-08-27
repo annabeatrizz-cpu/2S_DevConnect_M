@@ -1,0 +1,123 @@
+main {
+    background-color: var(--cor-azul-acinzentado);
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main>div {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+form {
+    max-width: 342px;
+    width: 100%;
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 5%;
+
+}
+
+.formulario-campos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.formulario-botao-azul {
+    width: 302px;
+}
+
+form>p {
+    font-size: var(--tamanho-font-md);
+    color: var(--cor-cinza);
+}
+
+form>a,
+#secao-conecte-se>p>a {
+    color: var(--cor-azul-escuro);
+    font-size: var(--tamanho-font-sm);
+    text-decoration: none;
+}
+
+#secao-login>p {
+    color: var(--cor-preto);
+    font-size: var(--tamanho-font-md);
+    text-decoration: none;
+}
+
+#secao-login {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estilo-formulario {
+    width: 120%;
+    max-width: 342px;
+    background-color: var(--cor-cinza);
+    border: var(--borda);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.estilo-formulario > input{
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 302px;
+    align-items: center;
+
+}
+
+main>div>p {
+
+    color: var(--cor-preto);
+    font-size: var(--tamanho-font-md);
+
+
+}
+
+#secao-instalacao {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.campo-upload {
+    display: inline-block;
+    padding: 12px;
+    background-color: var(--cor-azul-escuro);
+    font-weight: bold;
+    border-radius: 6px;
+    text-align: center;
+    width: 302px;
+    padding: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 300px;
+}

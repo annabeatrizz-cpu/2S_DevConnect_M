@@ -18,7 +18,7 @@
 
 :root {
     --cor-preto: #010513;
-    --cor-azul-acinzentado: #2E364D;
+    --cor-azul-acinzentado: #475580;
     --cor-branco: #F1F1F1;
     --cor-cinza: #BCBBBB;
     --cor-azul-escuro: #1A348E;
@@ -49,4 +49,35 @@ h1{
     position: absolute;
     z-index: -1;
     opacity: 0;
+}
+
+/* formulario*/
+
+.formulario-botao-azul{
+    background-color: var(--cor-azul-escuro);
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor-branco);
+    font-size: var(--tamanho-fonte-sm);
+}
+
+.formulario-campos > input{
+
+    border: var(--borda);
+    height: 35px;
+    background-color: var(--cor-cinza);
+
+    color: var(--cor-branco);
+    font-size: var(--tamanho-fonte-sm);
+    border-radius: var(--borda-arredondada);
+
+}
+
+.formulario-campos > label{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-preto);
+    font-weight: 600;
+
 }

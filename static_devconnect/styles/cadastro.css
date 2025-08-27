@@ -67,13 +67,14 @@ form>a,
 }
 
 .estilo-formulario {
-    width: 120%;
+    width: 150%;
     max-width: 342px;
     background-color: var(--cor-cinza);
     border: var(--borda);
     display: flex;
     flex-direction: column;
     gap: 15px;
+
 }
 
 .estilo-formulario > input{
@@ -81,8 +82,9 @@ form>a,
     border: 1px solid;
     border-radius: 6px;
     font-size: 14px;
-    width: 302px;
     align-items: center;
+    display: flex;
+    width: 100%;
 
 }
 

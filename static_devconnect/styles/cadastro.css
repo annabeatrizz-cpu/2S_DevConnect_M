@@ -104,22 +104,5 @@ main>div>p {
     gap: 10px;
 }
 
-input[type="file"]{
-    display: none;
-}
 
-.campo-upload {
-    display: inline-block;
-    padding: 12px;
-    background-color: var(--cor-azul-escuro);
-    font-weight: bold;
-    border-radius: 6px;
-    text-align: center;
-    width: 302px;
-    padding: 10px;
-}
 
-label{
-    display: inline-block;
-    width: 300px;
-}

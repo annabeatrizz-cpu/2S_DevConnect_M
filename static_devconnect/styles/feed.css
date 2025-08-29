@@ -1,0 +1,59 @@
+main {
+    
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container-flex-publi{
+    background-color: darkgray;
+    height: 700px;
+    width: 90%;
+    max-width: 900px;
+}
+
+#storys{
+    background-color: rgb(75, 108, 169);
+    width: 100%;
+   /* height: 300px;*/
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   justify-content: space-between;
+   overflow-x: scroll;
+   gap: 30px;
+}
+
+#storys::-webkit-scrollbar{
+    width: 0;
+  
+}
+
+.card-storys{
+   /*background-color: dodgerblue;*/
+}
+
+.card-storys > a{
+    text-decoration: none;
+    font-size: var(--tamanho-fonte-sm);
+    color:black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-storys>a>img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.formulario-botao-azul{
+    width: 150px;
+}

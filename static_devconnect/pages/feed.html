@@ -42,7 +42,7 @@
                     <img src="../assets/images/icone-coracao-preto.svg" alt="">
                 </a>
                 <a href="#">
-                    <img id="foto-perfil" src="../assets/images/imagem.jpg" alt="">
+                    <img class="foto-perfil" src="../assets/images/imagem.jpg" alt="">
 
                 </a>
 
@@ -205,25 +205,64 @@
 
             </section>
 
-            <section id="criar-publi">
+            <section id="criar-publi" class="estilo-formulario">
                 <h2>Publicaçao</h2>
 
                 <form action="">
-                    <textarea name="" id=""></textarea>
+                    <textarea name="" id="" placeholder="Digite a descriçao do post..."></textarea>
 
                     <footer>
 
-                        <div class="estilo-formulario">
-                            <label id="texto-upload" for="campo-upload">
-                                Faça upload da sua imagem aqui...
-                            </label>
-                            <input type="file" name="" id="campo-upload">
-                        </div>
+                        <label id="texto-upload" for="campo-upload">
+                            Faça upload da sua imagem aqui...
+                        </label>
+                        <input type="file" name="" id="campo-upload">
 
-                        <button type="submit" class="formulario-botao-azul">Entrar</button>
+                        <button type="submit" class="formulario-botao-azul">Postar</button>
 
                     </footer>
                 </form>
+            </section>
+
+            <section id="publicacoes">
+                <article class="card-publi">
+                    <header>
+
+                        <a href="#">
+                            <img class="foto-perfil" src="../assets/images/chorao.jpg" alt="">
+                            chorao_bibs
+                        </a>
+
+                    </header>
+
+                    <figure>
+                        <img class="imagem-publicacao" src="../assets/images/d7d83f626d90a550a099a07bb8c70e39.jpg" alt="">
+                        <figcaption>
+                            chorao_bibs
+                            <p class="descricao-publicacao">Final de semestre da turma moura branco</p>
+                        </figcaption>
+
+                        <div class="interacoes-publicacao">
+                               <button type="button">
+                                <img src="../assets/images/icone-coracao-preto.svg" alt="">
+                               </button>
+
+                               <button type="button">
+                                <img src="../assets/images/icone-comentario-preto.svg" alt="">
+                               </button>
+
+                               <span>100 curtidas</span>
+
+                        </div>
+
+                        <button type="button">Ver todos os comentarios...</button>
+                    </figure>
+
+                </article>
+
+                <article>
+                    
+                </article>
             </section>
         </div>
 

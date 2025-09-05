@@ -18,7 +18,7 @@ main {
 }
 
 #storys {
-    background-color: rgb(75, 108, 169);
+    background-color: var(--cor-branco);
     width: 100%;
     /* height: 300px;*/
     padding: 10px;
@@ -126,6 +126,7 @@ main {
 .card-publi > figure{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 

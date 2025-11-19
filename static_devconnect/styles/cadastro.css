@@ -67,7 +67,7 @@ form>a,
 }
 
 .estilo-formulario {
-    width: 150%;
+    width: 100%;
     max-width: 342px;
     background-color: var(--cor-cinza);
     border: var(--borda);
